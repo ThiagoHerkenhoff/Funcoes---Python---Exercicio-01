@@ -1,0 +1,9 @@
+"""
+1. Crie um programa que tenha uma função que recebe um parâmetro inteiro e devolve o seu dobro.
+"""
+
+def dobro(numero):
+    return numero * 2
+
+numero = int(input('Infrome um número inteiro: '))
+print(dobro(numero))
